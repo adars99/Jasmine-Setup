@@ -31,15 +31,15 @@ Please follow the below steps to setup and run jasmine javascript unit test case
  - If you are going to use the command line mode, make sure the following paths are added to the PATH variable:<br/>
     1. The path to the parent folder of the Node.js executable file.
     2. The path to the npm folder.This enables you to launch the Karma test runner and npm from any folder.
-    ![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture4.png"><br/>
+    <img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture4.png"><br/>
  - Install and enable the NodeJS and Karma repository plugin.
    1. Open IntelliJ Idea IDE, go to File->Settings. Search "Plugins" on the left top search bar.
    2. Click on Install JetBrains Plugin button. 
-  ![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture1.png"><br />
+  <img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture1.png"><br />
    3. Search NodeJS on Browse JetBrains Plugins window and click on install NodeJS Plugin button.
-   ![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture2.png"><br />
+   <img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture2.png"><br />
    4. Search Karma on Browse JetBrains Plugins window and click on install Karma Plugin button.
-    ![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture3.png"><br/>
+    <img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture3.png"><br/>
    5. Click on Close and apply button and restart the IntelliJ Idea IDE.
    
 #Step 2: Install Karma in a project and globally
@@ -48,11 +48,11 @@ Please follow the below steps to setup and run jasmine javascript unit test case
 ```sh
 $ npm install -g karma
 ```
-![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture5.png"><br/>
+<img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture5.png"><br/>
 
   - Open the project settings by choosing File->Settings.
   - On the Node.Js and NPM page, click on + side and install Node.JS dependent packages if required.If nothing is available then go to next step.
-  ![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture6.png"><br/>
+  <img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture6.png"><br/>
  
 #Step 3: Configuring Jasmine Testing Frameworks in a Project
 - Launch the IntelliJ IDEA embedded Terminal to install the latest official version of jasmine.
@@ -98,7 +98,7 @@ $ npm install karma karma-coverage --save-dev
  - Create a folder "test" at the same level as the src/static folder.
  - Create a UnitTest and FuntionalTest folder under test folder to add unit test and functional test cases.
  - Configuring Test source root
-![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture7.png"><br/>
+<img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture7.png"><br/>
  - Add TestFile e.g. SearchSuggest.Test.js and add the below code in your test file to test the jasmine test cases.
  
 ```sh
@@ -149,7 +149,7 @@ $ karma init karma.conf.js
 - Note :If Karma does not start, check the installation: the parent folder or the Karma executable file should be specified in the PATH variable.
 
 #Step 7: Configuring Karma on IntelliJ  IDEA
-<img src="https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture8.png"><br/>
+<img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture8.png"><br/>
 
 #Step 8: Optional Install plug-in/extension on the browser to debug the test cases if required
 - chrome -Install JetBrain IDE Support extenion for chrome
@@ -168,7 +168,7 @@ $ karma start
 ```
 - In IntelliJ IDEA, click on the test coverage icon. please check the below screenshot
 
-![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture9.png"><br/>
+<img src="https://github.com/adars99/Jasmine-Setup/blob/master/images/Capture9.png"><br/>
 
 - The Karma test server starts automatically without any steps from your side. View and analyse messages from the test server in the Karma Server tab of the Run tool window.
 - Monitor test execution in the Test Runner tab of the Run tool window as described in Monitoring and Managing Tests.
