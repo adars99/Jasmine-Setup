@@ -149,7 +149,7 @@ $ karma init karma.conf.js
 - Note :If Karma does not start, check the installation: the parent folder or the Karma executable file should be specified in the PATH variable.
 
 #Step 7: Configuring Karma on IntelliJ  IDEA
-![alt tag](https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture8.png"><br/>
+<img src="https://github.com/adars99/Jasmine-Setup/tree/master/images/Capture8.png"><br/>
 
 #Step 8: Optional Install plug-in/extension on the browser to debug the test cases if required
 - chrome -Install JetBrain IDE Support extenion for chrome
