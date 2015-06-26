@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Language" content="en">
-    <title>JSONPCrossDomain</title>
+    <title>Karma and Jasmine Testing Setup on IntelliJ Idea</title>
   </head>
 
 
