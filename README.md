@@ -9,7 +9,7 @@
 
 
   <body>
-<p>Karma and Jasmine Testing Setup on IntelliJ Idea</p>
+
 
 <h2><a id="user-content-authors" class="anchor" href="#authors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors</h2>
 
